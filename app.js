@@ -48,7 +48,6 @@ const addEventToItem = () => {
   suggestItemsEl.forEach((el) => {
     el.addEventListener("click", () => {
       inputEl.value = el.outerText;
-      console.log(1);
     });
   });
 };
